@@ -1,0 +1,245 @@
+/* ==========================================================
+   Explore Bangladesh — MIS 455 Assignment 1
+   Main stylesheet shared by all five pages
+   Google Fonts: "Poppins" (headings/nav) + "Lora" (body text)
+   ========================================================== */
+
+/* ---------- 1. Reset & base ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lora", Georgia, serif;   /* Google Font #2 */
+  font-size: 17px;
+  line-height: 1.7;
+  color: #2b2d42;
+  background-color: #f8f5ef;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", Arial, sans-serif;  /* Google Font #1 */
+  color: #006a4e;            /* Bangladesh flag green */
+  line-height: 1.25;
+}
+
+h1 { font-size: 2.4rem; margin-bottom: 12px; }
+h2 { font-size: 1.7rem; margin: 30px 0 14px; }
+h3 { font-size: 1.2rem; margin-bottom: 8px; }
+
+p { margin-bottom: 16px; }
+
+a { color: #c8102e; }
+a:hover { color: #006a4e; }
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 12px;
+}
+
+/* ---------- 2. Navigation bar (used on every page) ---------- */
+header {
+  background-color: #006a4e;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  display: flex;                 /* flex for the nav layout */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.logo span { color: #f42a41; }   /* red dot of the flag */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+nav ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.95rem;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: background-color 0.25s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  background-color: #f42a41;
+  color: #ffffff;
+}
+
+/* ---------- 3. Page banner ---------- */
+.banner {
+  background: linear-gradient(135deg, #006a4e, #2a9d8f);
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.banner h1 { color: #ffffff; }
+.banner p  { font-size: 1.1rem; max-width: 700px; margin: 0 auto; opacity: 0.95; }
+
+/* ---------- 4. Main content wrapper ---------- */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.content-box {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+}
+
+figure { margin: 10px 0 20px; }
+figcaption {
+  font-size: 0.9rem;
+  color: #6c757d;
+  text-align: center;
+  margin-top: 6px;
+  font-style: italic;
+}
+
+/* ---------- 5. FLEXBOX layouts (Home & Food pages) ---------- */
+.flex-row {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-row > * { flex: 1 1 320px; }
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 300px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.card img { border-radius: 0; width: 100%; }
+.card .card-body { padding: 20px; }
+
+/* ---------- 6. GRID layouts (Destinations & Culture pages) ---------- */
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.grid-item {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.grid-item img { margin-bottom: 12px; }
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+/* ---------- 7. Contact form ---------- */
+form label {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 14px 0 6px;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 12px 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #f42a41;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(244, 42, 65, 0.35);
+}
+
+.btn:hover { background-color: #006a4e; color: #ffffff; }
+
+/* ---------- 8. Lists of useful external links ---------- */
+.links-list { padding-left: 22px; }
+.links-list li { margin-bottom: 8px; }
+
+/* ---------- 9. Footer ---------- */
+footer {
+  background-color: #1b263b;
+  color: #e0e1dd;
+  text-align: center;
+  padding: 24px 20px;
+  font-size: 0.9rem;
+}
+
+footer a { color: #ffd166; }
+
+/* ---------- 10. Responsive tweaks ---------- */
+@media (max-width: 700px) {
+  h1 { font-size: 1.9rem; }
+  .grid-2 { grid-template-columns: 1fr; }
+  nav { justify-content: center; }
+  .content-box { padding: 20px; }
+}

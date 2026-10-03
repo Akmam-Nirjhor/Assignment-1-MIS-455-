@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Tea gardens of Sreemangal">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8dadc"/><stop offset="1" stop-color="#f1faee"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="631" cy="110" r="55" fill="#ffd166" opacity=".95"/>
+<path d="M0 300 Q 150 188 300 290 T 600 280 T 800 270 V500 H0Z" fill="#2a9d8f" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#52b788"/>
+<rect x="445" y="336" width="8" height="40" fill="#5c4033"/><circle cx="449" cy="321" r="26" fill="#1b4332"/>
+<rect x="138" y="343" width="8" height="40" fill="#5c4033"/><circle cx="142" cy="328" r="27" fill="#1b4332"/>
+<rect x="312" y="327" width="8" height="40" fill="#5c4033"/><circle cx="316" cy="312" r="23" fill="#1b4332"/>
+<g fill="#2d6a4f"><ellipse cx="40" cy="360" rx="70" ry="22"/><ellipse cx="170" cy="360" rx="70" ry="22"/><ellipse cx="300" cy="360" rx="70" ry="22"/><ellipse cx="430" cy="360" rx="70" ry="22"/><ellipse cx="560" cy="360" rx="70" ry="22"/><ellipse cx="690" cy="360" rx="70" ry="22"/><ellipse cx="40" cy="395" rx="70" ry="22"/><ellipse cx="170" cy="395" rx="70" ry="22"/><ellipse cx="300" cy="395" rx="70" ry="22"/><ellipse cx="430" cy="395" rx="70" ry="22"/><ellipse cx="560" cy="395" rx="70" ry="22"/><ellipse cx="690" cy="395" rx="70" ry="22"/><ellipse cx="40" cy="430" rx="70" ry="22"/><ellipse cx="170" cy="430" rx="70" ry="22"/><ellipse cx="300" cy="430" rx="70" ry="22"/><ellipse cx="430" cy="430" rx="70" ry="22"/><ellipse cx="560" cy="430" rx="70" ry="22"/><ellipse cx="690" cy="430" rx="70" ry="22"/><ellipse cx="40" cy="465" rx="70" ry="22"/><ellipse cx="170" cy="465" rx="70" ry="22"/><ellipse cx="300" cy="465" rx="70" ry="22"/><ellipse cx="430" cy="465" rx="70" ry="22"/><ellipse cx="560" cy="465" rx="70" ry="22"/><ellipse cx="690" cy="465" rx="70" ry="22"/></g>
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

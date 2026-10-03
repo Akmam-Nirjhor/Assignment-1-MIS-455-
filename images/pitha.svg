@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Traditional winter pitha">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe5d9"/><stop offset="1" stop-color="#fcd5ce"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="412" cy="110" r="55" fill="#ffffff00" opacity=".95"/>
+<path d="M0 300 Q 150 216 300 290 T 600 280 T 800 270 V500 H0Z" fill="#f8edeb" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#d8e2dc"/>
+<ellipse cx="400" cy="360" rx="250" ry="70" fill="#d4a373"/><ellipse cx="260" cy="335" rx="45" ry="25" fill="#faedcd" stroke="#bc6c25" stroke-width="4"/><ellipse cx="350" cy="335" rx="45" ry="25" fill="#faedcd" stroke="#bc6c25" stroke-width="4"/><ellipse cx="440" cy="335" rx="45" ry="25" fill="#faedcd" stroke="#bc6c25" stroke-width="4"/><ellipse cx="530" cy="335" rx="45" ry="25" fill="#faedcd" stroke="#bc6c25" stroke-width="4"/>
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

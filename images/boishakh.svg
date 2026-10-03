@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Pohela Boishakh celebration">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffbe0b"/><stop offset="1" stop-color="#fff3b0"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="421" cy="110" r="55" fill="#ffffff" opacity=".95"/>
+<path d="M0 300 Q 150 186 300 290 T 600 280 T 800 270 V500 H0Z" fill="#ff006e" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#fb5607"/>
+<rect x="330" y="250" width="140" height="130" rx="20" fill="#9d0208"/><ellipse cx="400" cy="250" rx="70" ry="22" fill="#ffe8d6"/><path d="M335 270 L465 360 M465 270 L335 360" stroke="#ffba08" stroke-width="5"/><g transform="translate(200,140) rotate(45)"><rect width="50" height="50" fill="#ef476f"/></g><path d="M200 210 q20 40 -10 90" stroke="#333" fill="none"/><g transform="translate(420,90) rotate(45)"><rect width="50" height="50" fill="#ffd166"/></g><path d="M420 160 q20 40 -10 90" stroke="#333" fill="none"/><g transform="translate(600,170) rotate(45)"><rect width="50" height="50" fill="#06d6a0"/></g><path d="M600 240 q20 40 -10 90" stroke="#333" fill="none"/>
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

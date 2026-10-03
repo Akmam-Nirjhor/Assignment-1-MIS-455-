@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="River at sunset">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4a261"/><stop offset="1" stop-color="#ffe8d6"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="193" cy="110" r="55" fill="#e76f51" opacity=".95"/>
+<path d="M0 300 Q 150 218 300 290 T 600 280 T 800 270 V500 H0Z" fill="#2a9d8f" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#606c38"/>
+<rect y="390" width="800" height="110" fill="#219ebc" opacity=".85"/>
+<path d="M179 414 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M443 409 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M605 461 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M720 432 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M334 436 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M101 486 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M255 437 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M640 433 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<rect x="78" y="320" width="8" height="40" fill="#5c4033"/><circle cx="82" cy="305" r="26" fill="#1b4332"/>
+<rect x="505" y="357" width="8" height="40" fill="#5c4033"/><circle cx="509" cy="342" r="27" fill="#1b4332"/>
+<rect x="490" y="330" width="8" height="40" fill="#5c4033"/><circle cx="494" cy="315" r="19" fill="#1b4332"/>
+<rect x="31" y="313" width="8" height="40" fill="#5c4033"/><circle cx="35" cy="298" r="25" fill="#1b4332"/>
+<rect x="550" y="329" width="8" height="40" fill="#5c4033"/><circle cx="554" cy="314" r="19" fill="#1b4332"/>
+<path d="M330 420 h160 l-25 30 h-110z" fill="#7f5539"/><path d="M410 420 V330 l60 80z" fill="#f4f1de"/><line x1="410" y1="420" x2="410" y2="325" stroke="#3d2c1e" stroke-width="4"/>
+
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

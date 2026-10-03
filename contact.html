@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact us to plan your trip to Bangladesh.">
+  <title>Contact | Explore Bangladesh</title>
+
+  <!-- Google Fonts: Poppins (headings) and Lora (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (same on all 5 pages) ===== -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Explore Bangladesh<span>.</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="banner">
+    <h1>Plan Your Trip</h1>
+    <p>Have a question? Send us a message and we will help you plan.</p>
+  </section>
+
+  <main>
+
+    <section class="content-box grid-2">
+      <div>
+        <h2>Get in Touch</h2>
+        <p>Whether you are planning a weekend in the Sundarbans or a two-week tour of the whole country, we are happy to help. Fill in the form and tell us your travel dates, interests and budget.</p>
+        <p>The best time to visit is from November to February, when the weather is cool and dry. During the monsoon (June to September) the countryside is beautifully green, but some trips may be affected by rain.</p>
+        <figure>
+          <img src="images/contact.svg" alt="Envelope icon">
+          <figcaption>We usually reply within two days</figcaption>
+        </figure>
+      </div>
+
+      <!-- Simple contact form (front-end only) -->
+      <form action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Rahim Ahmed" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <label for="place">Destination</label>
+        <select id="place" name="place">
+          <option>The Sundarbans</option>
+          <option>Cox's Bazar</option>
+          <option>Sreemangal</option>
+          <option>Old Dhaka</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Tell us about your trip..."></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <section class="content-box flex-row">
+      <figure>
+          <img src="images/map-pin.svg" alt="Map pin icon">
+          <figcaption>Useful travel resources</figcaption>
+        </figure>
+      <div>
+        <h2>Useful Links</h2>
+        <ul class="links-list">
+          <li><a href="https://tourism.gov.bd/" target="_blank" rel="noopener">Bangladesh Tourism Board</a></li>
+          <li><a href="https://www.visitbangladesh.gov.bd/" target="_blank" rel="noopener">Visit Bangladesh</a></li>
+          <li><a href="https://www.google.com/maps/place/Bangladesh" target="_blank" rel="noopener">Bangladesh on Google Maps</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Explore Bangladesh &middot; MIS 455 Assignment 1 &middot; Built with HTML &amp; CSS</p>
+    <p>Learn more at <a href="https://en.wikipedia.org/wiki/Bangladesh" target="_blank" rel="noopener">Wikipedia</a></p>
+  </footer>
+
+</body>
+</html>

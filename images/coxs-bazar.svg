@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Cox's Bazar beach">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#48cae4"/><stop offset="1" stop-color="#ade8f4"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="295" cy="110" r="55" fill="#ffb703" opacity=".95"/>
+<path d="M0 300 Q 150 180 300 290 T 600 280 T 800 270 V500 H0Z" fill="#e9c46a" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#e9d8a6"/>
+<rect y="390" width="800" height="110" fill="#219ebc" opacity=".85"/>
+<path d="M513 431 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M701 470 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M662 475 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M389 436 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M87 413 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M678 421 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M676 486 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+<path d="M62 458 q15 -8 30 0" stroke="#e0fbfc" stroke-width="3" fill="none"/>
+
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Bangladesh — rivers, green fields, rich history and warm hospitality.">
+  <title>Home | Explore Bangladesh</title>
+
+  <!-- Google Fonts: Poppins (headings) and Lora (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (same on all 5 pages) ===== -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Explore Bangladesh<span>.</span></a>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="banner">
+    <h1>Welcome to Bangladesh</h1>
+    <p>The land of rivers, green paddy fields and some of the warmest hospitality in the world.</p>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+
+    <!-- Intro section: uses display:flex (.flex-row) -->
+    <section class="content-box flex-row">
+      <div>
+        <h2>A Country Shaped by Water</h2>
+        <p>Bangladesh sits on the largest river delta in the world, where the Padma, Jamuna and Meghna rivers meet before flowing into the Bay of Bengal. Life here has always followed the rhythm of the rivers — they feed the farms, carry the boats and shape the culture of more than 170 million people.</p>
+        <p>From the busy streets of Dhaka to quiet villages surrounded by water, travellers find a country full of colour, history and friendly faces. This website is a small guide to the places, food and traditions that make Bangladesh special.</p>
+      </div>
+      <figure>
+          <img src="images/hero-river.svg" alt="Wooden boat on a river at sunset">
+          <figcaption>Country boats on the river at sunset</figcaption>
+        </figure>
+    </section>
+
+    <!-- Second section: also flex, image on the left -->
+    <section class="content-box flex-row">
+      <figure>
+          <img src="images/green-fields.svg" alt="Green paddy fields under a blue sky">
+          <figcaption>Paddy fields stretch across the countryside</figcaption>
+        </figure>
+      <div>
+        <h2>Why Visit?</h2>
+        <p>Bangladesh is home to the Sundarbans, the largest mangrove forest on Earth, and Cox's Bazar, one of the longest natural sea beaches. Its hills in the north-east are covered with tea gardens, and its cities hold centuries-old mosques, temples and palaces.</p>
+        <p>Use the navigation bar above to explore top <a href="destinations.html">destinations</a>, taste the local <a href="food.html">food</a>, and learn about the <a href="culture.html">culture and festivals</a>. Ready to go? Visit the <a href="contact.html">contact page</a> to plan your trip.</p>
+        <a href="destinations.html" class="btn">Start Exploring</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Explore Bangladesh &middot; MIS 455 Assignment 1 &middot; Built with HTML &amp; CSS</p>
+    <p>Learn more at <a href="https://en.wikipedia.org/wiki/Bangladesh" target="_blank" rel="noopener">Wikipedia</a></p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Rice and fish curry">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fefae0"/><stop offset="1" stop-color="#faedcd"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="574" cy="110" r="55" fill="#ffffff00" opacity=".95"/>
+<path d="M0 300 Q 150 186 300 290 T 600 280 T 800 270 V500 H0Z" fill="#e9c46a" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#dda15e"/>
+<ellipse cx="400" cy="330" rx="230" ry="110" fill="#fefae0" stroke="#bc6c25" stroke-width="8"/><ellipse cx="340" cy="320" rx="90" ry="45" fill="#fff"/><ellipse cx="470" cy="320" rx="70" ry="38" fill="#e76f51"/><circle cx="430" cy="365" r="22" fill="#e9c46a"/><circle cx="480" cy="370" r="18" fill="#2a9d8f"/>
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

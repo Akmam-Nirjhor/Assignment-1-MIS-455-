@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Historic mosque in Old Dhaka">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb4a2"/><stop offset="1" stop-color="#ffcdb2"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="429" cy="110" r="55" fill="#ffd6a5" opacity=".95"/>
+<path d="M0 300 Q 150 222 300 290 T 600 280 T 800 270 V500 H0Z" fill="#6d6875" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#b5838d"/>
+<g fill="#f2e8cf"><rect x="300" y="250" width="200" height="100"/><path d="M340 250 a60 60 0 0 1 120 0z"/><rect x="270" y="200" width="18" height="150"/><rect x="512" y="200" width="18" height="150"/><circle cx="279" cy="196" r="12"/><circle cx="521" cy="196" r="12"/></g><g fill="#6c584c"><path d="M385 350 v-50 a15 15 0 0 1 30 0 v50z"/></g>
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

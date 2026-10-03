@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Green paddy fields">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ecae6"/><stop offset="1" stop-color="#e0fbfc"/></linearGradient></defs>
+<rect width="800" height="500" fill="url(#g)"/>
+<circle cx="305" cy="110" r="55" fill="#ffd166" opacity=".95"/>
+<path d="M0 300 Q 150 234 300 290 T 600 280 T 800 270 V500 H0Z" fill="#2a9d8f" opacity=".7"/>
+<path d="M0 340 Q 200 290 400 340 T 800 330 V500 H0Z" fill="#80b918"/>
+<rect x="470" y="328" width="8" height="40" fill="#5c4033"/><circle cx="474" cy="313" r="18" fill="#1b4332"/>
+<rect x="454" y="342" width="8" height="40" fill="#5c4033"/><circle cx="458" cy="327" r="23" fill="#1b4332"/>
+<rect x="671" y="320" width="8" height="40" fill="#5c4033"/><circle cx="675" cy="305" r="21" fill="#1b4332"/>
+<rect x="545" y="348" width="8" height="40" fill="#5c4033"/><circle cx="549" cy="333" r="23" fill="#1b4332"/>
+<rect x="593" y="340" width="8" height="40" fill="#5c4033"/><circle cx="597" cy="325" r="26" fill="#1b4332"/>
+<rect x="480" y="318" width="8" height="40" fill="#5c4033"/><circle cx="484" cy="303" r="21" fill="#1b4332"/>
+<rect x="523" y="333" width="8" height="40" fill="#5c4033"/><circle cx="527" cy="318" r="26" fill="#1b4332"/>
+
+<rect x="0" y="0" width="800" height="500" fill="none" stroke="#ffffff" stroke-width="0"/>
+</svg>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Traditional Bangladeshi food and dishes.">
+  <title>Food | Explore Bangladesh</title>
+
+  <!-- Google Fonts: Poppins (headings) and Lora (body text) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Link to the external CSS file -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== NAVIGATION BAR (same on all 5 pages) ===== -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Explore Bangladesh<span>.</span></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="food.html" class="active">Food</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== PAGE BANNER ===== -->
+  <section class="banner">
+    <h1>Taste of Bangladesh</h1>
+    <p>Rice, fish, spices and sweets — a cuisine built on flavour.</p>
+  </section>
+
+  <main>
+
+    <section class="content-box">
+      <h2>Rice and Fish Make a Bengali</h2>
+      <p>There is an old saying, <em>"Mache-bhate Bangali"</em> — fish and rice make a Bengali. Rice is eaten at almost every meal, served with lentils (dal), vegetables and curries made from river fish such as hilsa (ilish), the national fish.</p>
+      <p>Bangladeshi food uses mustard oil, turmeric, green chillies and a spice mix called panch phoron. Meals are usually shared with family, and guests are always offered more than they can eat. Read more on <a href="https://en.wikipedia.org/wiki/Bangladeshi_cuisine" target="_blank" rel="noopener">Bangladeshi cuisine</a>.</p>
+    </section>
+
+    <!-- Food cards: uses display:flex (.flex-cards) -->
+    <section class="flex-cards">
+      <!-- Food card: Ilish Bhat -->
+      <div class="card">
+        <img src="images/rice-fish.svg" alt="A plate of rice with fish curry">
+        <div class="card-body">
+          <h3>Ilish Bhat</h3>
+          <p>Hilsa fish cooked in mustard sauce and served with steaming white rice — the most loved dish in the country.</p>
+        </div>
+      </div>
+      <!-- Food card: Pitha -->
+      <div class="card">
+        <img src="images/pitha.svg" alt="Traditional rice cakes on a plate">
+        <div class="card-body">
+          <h3>Pitha</h3>
+          <p>Sweet and savoury rice cakes made in winter with fresh date-palm jaggery. Every region has its own kind.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2026 Explore Bangladesh &middot; MIS 455 Assignment 1 &middot; Built with HTML &amp; CSS</p>
+    <p>Learn more at <a href="https://en.wikipedia.org/wiki/Bangladesh" target="_blank" rel="noopener">Wikipedia</a></p>
+  </footer>
+
+</body>
+</html>
